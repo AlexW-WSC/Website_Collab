@@ -1,0 +1,52 @@
+
+body {
+    background-color:#f8dc75;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(255,255,255);
+    font-size: 20px;
+}
+
+p.pR {
+    text-align: right;
+    float:right;
+}
+
+div.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+img {
+    border-radius: 10%;
+    transition: 1s;
+}
+
+div.img:hover {
+    width: 110%;
+}
+
+img.imageR {
+    width: 100%;
+    height: 100%;
+    float:right;
+}
+
+img.imageL {
+    width: 100%;
+    height: 100%;
+    float:left;
+}
+
+img.imageBig {
+    width: 100%;
+    height: 100%;
+    float:right;
+}
